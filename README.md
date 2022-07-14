@@ -22,7 +22,7 @@
 
 ### Configure database (MySql) - TypeOrm 
 1.  Create a database and keep database name with you
-2.  Open file ./src/config/database.ts
+2.  Open file `./src/config/database.ts`
 3.  Set the DB connection and other details
 
 ### Create TypeOrm entities 
@@ -33,7 +33,7 @@ Entities are equilvent to database table in TypeOrm. You can read more on https:
 `yarn run typeorm schema:sync`
 
 ### Create your first controller
-1. You can walk through ./src/controllers/AuthController.ts
+1. You can walk through `./src/controllers/AuthController.ts`
 2. See how the decorators of [tsoa OpenApi](https://www.npmjs.com/package/tsoa) used to generate OpenApi document
 3. You define the routes in controller using tsoa decorator and then creare route from a tsoa command on terminal (see next step)
 
