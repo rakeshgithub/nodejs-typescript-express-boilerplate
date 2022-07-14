@@ -60,4 +60,6 @@ We are using OpenApi for the documentation of API's so used [tsoa OpenApi](https
 
 `yarn dev` to run the server
 
+Swageer UI - `http://localhost:8002/docs/`
+
 `yarn typeorm-ts-node-esm migration:create ./src/migrations/initialDatabaseEntries` - To create new migration scripts
