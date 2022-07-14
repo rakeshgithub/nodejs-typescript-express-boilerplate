@@ -1,5 +1,14 @@
 # nodejs-typescript-express-boilerplate
 
+## What have been used
+
+1. ExpressJS
+2. TypeScript
+3. TypeOrm
+4. TSOA - OpenAPI-compliant
+5. JWT token authantication
+6. Yup schema validation
+
 ## Quick start
 
 ### Clone the repository
