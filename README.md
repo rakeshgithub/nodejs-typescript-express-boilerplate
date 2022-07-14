@@ -44,4 +44,8 @@ We are using OpenApi for the documentation of API's so used [tsoa OpenApi](https
 3. That command will create the the file ./src/routes/routes.ts
 4. Dont edit this file ever, run `yarn run tsoa routes` everytime when you add/edit the routes in your controller
 
+### Few other commands [TBD]
+
+`yarn typeorm-ts-node-esm migration:create ./src/migrations/initialDatabaseEntries`
+
 
