@@ -1,3 +1,4 @@
+** Under development **
 # nodejs-typescript-express-boilerplate
 
 ## What have been used
@@ -28,7 +29,7 @@
 Entities are equilvent to database table in TypeOrm. You can read more on https://typeorm.io/entities 
 
 ### Run Migration to create database tables from entities 
-1. If you have created entities, then you can create the database table from those entities by running below command: <br />
+1. If you have created entities, then you can create the database tables automatically from those entities by running below typeorm command: <br />
 `yarn run typeorm schema:sync`
 
 ### Create your first controller
