@@ -1,4 +1,4 @@
-import "dotenv/config";
+import "./types/config";
 import express, { Application } from "express";
 import morgan from "morgan";
 import bodyParser from "body-parser";
