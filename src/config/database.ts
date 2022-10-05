@@ -7,7 +7,7 @@ const AppDataSource = new DataSource({
   port: Number(process.env.POSTGRES_PORT) || 3306,
   username: process.env.POSTGRES_USER || "root",
   password: process.env.POSTGRES_PASSWORD || "password",
-  database: process.env.POSTGRES_DB || "subesto-2",
+  database: process.env.POSTGRES_DB || "test_boilerplate",
   entities: [User, Business, Role],
   migrations: ["src/migrations/*"],
   synchronize: true,
